@@ -78,7 +78,7 @@ func main () {
 // 输出： 0
 ```
 
-### 多重返回
+### 多返回值
 ```go
 func multipartReturn(a int, b int) (res int, err error) {
 	res = a + b
