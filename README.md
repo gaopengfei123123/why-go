@@ -1,4 +1,4 @@
-# 标题
+#标题
 
 ## 概况
 ### go 相比 php 有哪些优势?
@@ -139,7 +139,7 @@ func loopPro(desc bool, ch chan<- string) {
 
 
 ### 跨平台
-一个`http-server`的 demo
+`http-server`的 demo
 ```go
 package main
 
