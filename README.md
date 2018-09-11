@@ -249,9 +249,9 @@ func main() {
 - `float32/float64`
 - `string`
 - `array`
-- `slice`
-- `map`
-- `point`
+- `slice`(切片)
+- `map`(字典)
+- `point`(指针)
 
 面向对象: 
 - `struct`
