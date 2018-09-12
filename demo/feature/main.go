@@ -11,9 +11,12 @@ func main() {
 	ch := make(chan string, 3)
 	go loopPro(true, ch)
 	go loopPro(false, ch)
+	fmt.Println("start")
+
 	for i := 0; i < 20; i++ {
 		fmt.Print(<-ch)
 	}
+
 }
 
 // 函数多个返回值
