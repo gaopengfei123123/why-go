@@ -1,4 +1,4 @@
-package main
+package feature
 
 import (
 	"errors"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func loopDemo() {
 	// 创建一个缓冲
 	ch := make(chan string, 3)
 	go loopPro(true, ch)
